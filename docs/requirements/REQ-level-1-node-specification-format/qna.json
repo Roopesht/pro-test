@@ -1,0 +1,35 @@
+{
+  "entity_type": "requirement",
+  "entity_id": "REQ-level-1-node-specification-format",
+  "assigned_to": "8I5g2LKf6Dg3lf7F8yuWUbfS0vC2",
+  "status": "pending",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "text",
+      "text": "Decision dec-go-2 (\"go\") has no rationale text, and the parent feature \"Level 1 Process Specification\" is broad (\"document what must happen at each step, independent of tools/software/people/APIs/implementation\"). Should this requirement scope to defining the general Level 1 node schema/template (id, name, description, input, output, next_nodes, notes) that any process can use, or should it scope to actually authoring the Level 1 documentation for the specific example marketing process in the blueprint (Identify Course -> Define Campaign -> Reach Audience -> Capture Leads -> Nurture Leads -> Measure Interest -> Offer Course -> Follow Up)?",
+      "required": true,
+      "answer": null,
+      "answered_by": null,
+      "answered_at": null
+    },
+    {
+      "id": "q2",
+      "type": "text",
+      "text": "The blueprint shows a node schema with fields like id, name, description, input, output, implementation, tools, automation, next_nodes, notes -- but Level 1 should stay independent of implementation/tools/automation. Should the Level 1 requirement only ever populate id, name, description, input, output, and next_nodes (leaving implementation/tools/automation fields for Level 2), or is there a different subset of fields that counts as \"Level 1\"?",
+      "required": true,
+      "answer": null,
+      "answered_by": null,
+      "answered_at": null
+    },
+    {
+      "id": "q3",
+      "type": "text",
+      "text": "Where should Level 1 node documentation live and how should it be validated (e.g. one markdown/yaml file per node under docs/, a single combined process document, or something else), and who is expected to author/maintain it going forward?",
+      "required": true,
+      "answer": null,
+      "answered_by": null,
+      "answered_at": null
+    }
+  ]
+}
