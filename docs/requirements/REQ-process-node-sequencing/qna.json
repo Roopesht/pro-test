@@ -1,0 +1,35 @@
+{
+  "entity_type": "requirement",
+  "entity_id": "REQ-process-node-sequencing",
+  "assigned_to": "8I5g2LKf6Dg3lf7F8yuWUbfS0vC2",
+  "status": "pending",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "text",
+      "text": "The decision (dec-go-1) has no rationale text, and the parent feature 'Process Node Sequencing' bundles several distinct operations (create, add, remove, reorder, split nodes). Which of these operations should this specific requirement cover — all of them as one requirement, or a narrower subset?",
+      "required": true,
+      "answer": null,
+      "answered_by": null,
+      "answered_at": null
+    },
+    {
+      "id": "q2",
+      "type": "text",
+      "text": "What fields/attributes define a process node (e.g. name, description, type, order/position), and what data does a 'split' operation produce — does it duplicate the original node's fields into two new nodes, or reset them?",
+      "required": true,
+      "answer": null,
+      "answered_by": null,
+      "answered_at": null
+    },
+    {
+      "id": "q3",
+      "type": "text",
+      "text": "Are there any constraints on reordering or removing nodes (e.g. minimum node count, whether an in-progress node can be removed, whether reordering is drag-and-drop or another interaction)?",
+      "required": true,
+      "answer": null,
+      "answered_by": null,
+      "answered_at": null
+    }
+  ]
+}
