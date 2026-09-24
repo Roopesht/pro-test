@@ -2,7 +2,7 @@
   "entity_type": "requirement",
   "entity_id": "REQ-level-1-node-specification-format",
   "assigned_to": "8I5g2LKf6Dg3lf7F8yuWUbfS0vC2",
-  "status": "completed",
+  "status": "pending",
   "questions": [
     {
       "id": "q1",
@@ -30,6 +30,15 @@
       "answer": "will define in the document",
       "answered_by": "8I5g2LKf6Dg3lf7F8yuWUbfS0vC2",
       "answered_at": "2026-09-24T03:25:54.708Z"
+    },
+    {
+      "id": "q4",
+      "type": "text",
+      "text": "Project prj-test2 has no Applications registered yet (GET /api/projects/prj-test2/apps returns an empty list), but a Work Item for REQ-level-1-node-specification-format requires an applicationId. Which Application should this work item be created under - an existing one that needs to be added first, or a new Application (e.g. a docs-tooling/validation app for the process node format)? Please specify the application name/id to use, since I have no API available to create Applications myself.",
+      "required": true,
+      "answer": null,
+      "answered_by": null,
+      "answered_at": null
     }
   ]
 }
